@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00a4ff;
+}
+
+body {
+    width: 100vw;
+    height: 800px;
+    background-color: #F3F4F5;
+}
+
+.top {
+    height: 400px;
+    width: 100vw;
+}
+
+.top .lj {
+    width: 100vw;
+    height: 50px;
+    background-color: #000087;
+}
+
+.top .lj .tubiao {
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin-left: 178px;
+}
+
+.lj .tubiao img {
+    width: 100%;
+    height: 100%;
+}
+
+.top .lj .flink {
+    float: left;
+    width: 68vw;
+    height: 50px;
+    margin-left: 16px;
+}
+
+.flink .shang {
+    float: left;
+    width: 68vw;
+    height: 46px;
+}
+
+.lj .flink .one {
+    float: left;
+    width: 33vw;
+    height: 35px;
+    margin-right: 44px;
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+
+.flink .one div {
+    float: left;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: #D9D9D9;
+}
+
+.flink .one h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #fff;
+}
+
+.flink .xia {
+    float: left;
+    height: 4px;
+    width: 68vw;
+}
+
+.flink .xia .underline {
+    float: left;
+    width: 90px;
+    height: 4px;
+    margin-left: 141px;
+    background-color: #fff;
+}
+
+.lj .flink .two {
+    float: left;
+    width: 400px;
+    height: 50px;
+}
+
+.flink .two h4 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    color: #42C4F8;
+}
+
+.top .lj .flink .two div {
+    float: left;
+    width: 85px;
+    height: 25px;
+    margin-top: 17px;
+    padding-left: 30px;
+}
+
+.flink .two .b {
+    border-right: 2px solid #D9D9D9;
+}
+
+.top .jingxuan {
+    width: 100vw;
+    height: 334px;
+}
+
+.top .jingxuan img {
+    width: 100%;
+    height: 100%;
+}
+
+.top .jingxuan .left {
+    float: left;
+    width: 1000px;
+    height: 334px;
+}
+
+.top .jingxuan .left .zuokuo {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 150px;
+    margin-left: 75px;
+    margin-right: 10px;
+}
+
+.top .jingxuan .left .zhongjian {
+    float: left;
+    width: 55vw;
+    height: 334px;
+}
+
+.top .jingxuan .left .youkuo {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
+.top .jingxuan .right {
+    float: left;
+    width: 400px;
+    height: 320px;
+    padding-left: 30px;
+    padding-top: 14px;
+}
+
+.jingxuan .right .test-list {
+    width: 300px;
+    height: 280px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.test-list h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.test-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.test-list li {
+    line-height: 2.5;
+    position: relative;
+}
+
+.test-list li::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.bottom {
+    width: 100vw;
+    height: 390px;
+    padding-left: 57px;
+}
+
+.bottom img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom .changyong {
+    float: left;
+    width: 300px;
+    height: 23px;
+}
+
+.bottom .changyong h6 {
+    font-family: PingFang SC;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #454545;
+}
+
+.bottom .uline {
+    float: left;
+    width: 91vw;
+    height: 2px;
+    background-color: #CDCDCD;
+}
+
+.bottom .ceshi {
+    float: left;
+    width: 100vw;
+    height: 400px;
+    padding-top: 20px;
+    padding-left: 3vw;
+}
+
+.bottom .ceshi .k {
+    float: left;
+    width: 250px;
+    height: 330px;
+    margin-right: 69px;
+}
+
+.bottom .ceshi .q {
+    width: 255px;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.bottom .ceshi img {
+    border-radius: 20px;
+}
+
+.bottom .ceshi .down {
+    width: 255px;
+    height: 25px;
+    margin-left: 41px;
+    margin-top: 13px;
+}
+
+.ceshi .down h4 {
+    font-family: PingFang SC;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 100%;
+    color: #454545;
+}
